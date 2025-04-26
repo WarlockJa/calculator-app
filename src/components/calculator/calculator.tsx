@@ -31,11 +31,10 @@ export default function Calculator() {
       </div>
 
       <div className="bg-custom-bg-screen text-custom-text-offhand overflow-y-scroll rounded-xl p-6 text-right text-6xl font-bold">
-        {calculatorData.storedValue &&
-          formatNumber(Number(calculatorData.storedValue))}
+        {calculatorData.storedValue && formatNumber(calculatorData.storedValue)}
         {calculatorData.operation}
         {calculatorData.currentValue &&
-          formatNumber(Number(calculatorData.currentValue))}
+          formatNumber(calculatorData.currentValue)}
       </div>
 
       <div className="bg-custom-bg-keypad grid grid-cols-4 gap-[0.75em] rounded-xl p-6 sm:gap-6">

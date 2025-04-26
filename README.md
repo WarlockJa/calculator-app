@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Vercel]()
+- Solution URL: [GitHub](https://github.com/WarlockJa/calculator-app)
+- Live Site URL: [Vercel](https://calculator-app-chi-ten.vercel.app/)
 
 ## My process
 
